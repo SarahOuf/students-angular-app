@@ -1,0 +1,28 @@
+{
+  "students": [
+    {
+      "id": 1,
+      "name": "Sarah Ouf",
+      "email": "sarah.m.ouf@gmail.com",
+      "age": 26
+    },
+    {
+      "id": 2,
+      "name": "Nouran Ouf",
+      "email": "nouran@gmail.com",
+      "age": 18
+    },
+    {
+      "id": 3,
+      "name": "Noura Gamal",
+      "email": "noura@gmail.com",
+      "age": 23
+    },
+    {
+      "id": 4,
+      "name": "Leena Sherif",
+      "email": "leena@gmail.com",
+      "age": 24
+    }
+  ]
+}
