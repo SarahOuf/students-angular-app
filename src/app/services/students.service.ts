@@ -6,7 +6,8 @@ import { Student } from '../models/student';
   providedIn: 'root',
 })
 export class StudentsService {
-  readonly baseURL: string = 'http://localhost:3000/students';
+  readonly baseURL: string =
+    'http://students-json-server.herokuapp.com/students';
 
   constructor(private client: HttpClient) {}
 
@@ -21,8 +22,6 @@ export class StudentsService {
   }
 
   addStudent(newStudent: Student) {
-    console.log(newStudent);
-
     let response = this.client.post(this.baseURL, {
       name: newStudent.name,
       email: newStudent.email,

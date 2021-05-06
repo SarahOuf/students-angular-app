@@ -49,7 +49,6 @@ export class StudentsComponent implements OnInit {
 
   filterStudents(filteredStudents: Student[]) {
     this.filteredStudents = _.cloneDeep(filteredStudents);
-    console.log(this.filteredStudents);
     this.filter = true;
   }
 }

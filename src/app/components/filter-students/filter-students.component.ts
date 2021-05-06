@@ -18,11 +18,10 @@ export class FilterStudentsComponent implements OnInit {
   ngOnInit(): void {}
 
   filterStudents(searchValue: string) {
-    console.log(searchValue);
     this.filteredStudents = this.students.filter((student) => {
       return student.name.toLowerCase().indexOf(searchValue.toLowerCase()) > -1;
     });
-    console.log(this.filteredStudents);
+
     this.returnedFilteredStudents.emit(this.filteredStudents);
   }
 }
