@@ -7,7 +7,7 @@ import { Student } from '../models/student';
 })
 export class StudentsService {
   readonly baseURL: string =
-    'http://students-json-server.herokuapp.com/students';
+    'https://students-json-server.herokuapp.com/students';
 
   constructor(private client: HttpClient) {}
 
